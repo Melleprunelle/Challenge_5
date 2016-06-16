@@ -1,0 +1,30 @@
+* {margin: 0px; padding: 0px; box-sizing: border-box;}
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,400italic,700,700italic,900,900italic);
+
+/* VERT = #24890D*/
+
+/*---------------CSS des NAVBARS--------------
+----------------------------------------------*/
+
+.navbar-brand {/*Css du titre de la NavBar*/
+	color: white !important;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	margin-left: 10px !important;
+}
+
+.nav-style {/*Css du fond de la nav bar, la base*/
+	background-color: black;
+}
+
+.nav-liens {/*Css des liens de la navbar*/
+	color: white !important;
+}
+
+.nav-liens:hover {
+	background-color: #24890D !important;
+}
+
+i {
+	color: white !important;
+}
