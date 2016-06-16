@@ -6,44 +6,86 @@
 /*---------------CSS NAVBAR HAUT--------------
 ----------------------------------------------*/
 
-.navbar-brand {/*Css du titre de la NavBar*/
-	color: white !important;
-	font-family: "Lato", sans-serif;
-	font-weight: 400;
-	font-size: 1em;
-}
 
-.nav-style {background-color: black;}
+/*CSS TITRE NAVBAR*/
 
-.dropdown {/*Css menu loupe*/
-	background-color: #24890D;
-	float: right;
-	text-align: center;
-}
+	.navbar-brand {
+		color: white !important;
+		font-family: "Lato", sans-serif;
+		font-weight: 400;
+		font-size: 0.8em;
+	}
 
-.pull-right {
-	width: 50px;
-	height: 50px;
-	background-color: #24890D;
-	border: none;
-	margin: 0px;
-	border-radius: 0px;
-	box-shadow: 0px 0px 0px;
-}
+	.nav-style {background-color: black;
+	}
 
-#search {
-	width: 910px;
-}
 
-.navbar-toggle {/*Css icon-bar*/border:none;}
 
-.nav-liens {/*Css des liens de la navbar*/
-	color: white !important;
-	font-size: 0.7em;
-}
+/*CSS DE LA LOUPE + MENU DEROULANT LOUPE*/
 
-.nav-liens:hover {
-	background-color: #24890D !important;
-}
+	.dropdown {
+		background-color: #24890D;
+		float: right;
+		text-align: center;
+	}
 
-i {color: #F58900;}
+	.pull-right {
+		width: 50px;
+		height: 50px;
+		background-color: #24890D;
+		border: none;
+		margin: 0px;
+		border-radius: 0px;
+		box-shadow: 0px 0px 0px;
+	}
+
+	#search {
+		width: 300px;
+		height: 30px;
+		}
+
+
+
+/*CSS DE LA NAV FORMAT SMART*/
+
+	.navbar-toggle {
+		border:none;
+	}
+
+	.icon-bar {
+		border-radius: 0px !important; width: 15px !important;
+	}
+
+	.navbar-inverse .navbar-toggle:hover,
+	.navbar-inverse .navbar-toggle:focus {
+		background-color: black;
+	}
+
+
+
+/*CSS LIENS NAVBAR + FORM SEARCH*/
+
+	.nav-liens {
+		color: white !important;
+		font-size: 0.7em;
+	}
+
+	.nav-liens:hover {
+		background-color: #24890D !important;
+	}
+
+	i {color: #F58900;}
+
+	.form-control {
+		width: 50%;
+		height: 20px;
+		font-size: 0.7em;
+		float: right;
+		margin-right: 10px;
+		border:none;
+		border-radius: 2px;
+	}
+
+
+/*---------------CSS NAVBAR GAUCHE--------------
+----------------------------------------------*/
