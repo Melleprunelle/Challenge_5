@@ -3,22 +3,43 @@
 
 /* VERT = #24890D*/
 
-/*---------------CSS des NAVBARS--------------
+/*---------------CSS NAVBAR HAUT--------------
 ----------------------------------------------*/
 
 .navbar-brand {/*Css du titre de la NavBar*/
 	color: white !important;
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
-	margin-left: 10px !important;
+	font-size: 1em;
 }
 
-.nav-style {/*Css du fond de la nav bar, la base*/
-	background-color: black;
+.nav-style {background-color: black;}
+
+.dropdown {/*Css menu loupe*/
+	background-color: #24890D;
+	float: right;
+	text-align: center;
 }
+
+.pull-right {
+	width: 50px;
+	height: 50px;
+	background-color: #24890D;
+	border: none;
+	margin: 0px;
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px;
+}
+
+#search {
+	width: 910px;
+}
+
+.navbar-toggle {/*Css icon-bar*/border:none;}
 
 .nav-liens {/*Css des liens de la navbar*/
 	color: white !important;
+	font-size: 0.7em;
 }
 
 .nav-liens:hover {

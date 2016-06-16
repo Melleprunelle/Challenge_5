@@ -2,41 +2,61 @@
 <html>
 <head>
 	<title>AUDIOTHÈME</title>
-	<meta charset="utf-8" author="Lise & Annie-linne">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8" author="Lise & Annie-linne"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<script src="js/jquery.js"></script>
   	<script src="js/bootstrap.js"></script>
-  	<link rel="stylesheet" href="css/font-awesome.css"/>
+  	<link rel="stylesheet" href="fonts/font-awesome.css"/>
 </head>
 
 <body class="container-fluid">
 
 
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid nav-style">
-    <div class="navbar-header">
-	    <button type="button" class="navbar-toggle"  data-toggle="collapse" data-target="#myNavbar">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>                        
-	    </button>
-      	<a class="navbar-brand " href="#">Progeny MMXIV</a>
-    </div>
+<nav class="navbar navbar-inverse navbar-fixed-top nav-style">
+	<div class="dropdown">
+		<button class="nav-bouton pull-right" type="button" data-toggle="dropdown">
+    	<i class="fa fa-1x fa-search"></i>
+    	</button>
 
-    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-      	<ul class="nav navbar-nav">
-        	<li><a class="nav-liens" href="#">HOME</a></li>
-        	<li><a class="nav-liens" href="#">ABOUT</a></li>
-        	<li><a class="nav-liens" href="#">MUSIC</a></li>
-        	<li><a class="nav-liens" href="#">GIGS</a></li>
-        	<li><a class="nav-liens" href="#">PHOTOS</a></li>
-        	<li><a class="nav-liens" href="#">VIDEOS</a></li>
-        	<li><a class="nav-liens color-fa" href="#"><i class="fa fa-facebook"></i></a></li>
-        	<li><a class="nav-liens" href="#"><i class="fa fa-twitter"></i></a></li>
-        	<li><a class="nav-liens" href="#"><i class="fa fa-search"></i></a></li>
-        <ul class="dropdown-menu">
+    	<ul id="search" class="dropdown-menu pull-right" role="menu" aria-labelledby="menu1">
+      		<li role="presentation">
+      		<input class="form-control" placeholder="Recherche" name="Recherche" type="text"></input>
+      		</li>
+   		 </ul>
+	</div>
+
+	<!--<div id="search" class="dropdown">
+    <button class="dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"><i class="fa fa-1x fa-search"></i>
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+    </ul>
+  </div>
+	</div>-->
+
+ 	<div class="container-fluid">
+	    <div class="navbar-header">
+		    <button type="button" class="navbar-toggle"  data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>  
+		    </button>
+	      	<a class="navbar-brand" href="#">Progeny MMXIV</a>
+	    </div>
+
+	    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+	      	<ul class="nav navbar-nav">
+	        	<li><a class="nav-liens" href="#">HOME</a></li>
+	        	<li><a class="nav-liens" href="#">ABOUT</a></li>
+	        	<li><a class="nav-liens" href="#">MUSIC</a></li>
+	        	<li><a class="nav-liens" href="#">GIGS</a></li>
+	        	<li><a class="nav-liens" href="#">PHOTOS</a></li>
+	        	<li><a class="nav-liens" href="#">VIDEOS</a></li>
+				<li><a class="nav-liens" href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+				<li><a class="nav-liens" href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+	        </ul>
     </div>
   </div>
 
