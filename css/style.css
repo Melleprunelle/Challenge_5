@@ -1,6 +1,6 @@
 * {margin: 0px; padding: 0px; box-sizing: border-box;}
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,400italic,700,700italic,900,900italic);
-
+body {margin-top: 50px;}
 /* VERT = #24890D*/
 
 /*---------------CSS NAVBAR HAUT--------------
@@ -8,13 +8,12 @@
 
 
 /*CSS TITRE NAVBAR*/
-<<<<<<< HEAD
 
 	.navbar-brand {
 		color: white !important;
 		font-family: "Lato", sans-serif;
 		font-weight: 400;
-		font-size: 0.8em;
+		font-size: 1.2em !important;
 	}
 
 	.nav-style {background-color: black;
@@ -48,6 +47,11 @@
 
 
 /*CSS DE LA NAV FORMAT SMART*/
+
+	.navbar {
+		margin-bottom: 0px !important;
+		border-radius: 0px !important;
+	}
 
 	.navbar-toggle {
 		border:none;
@@ -93,21 +97,20 @@
 /*Css navbar vertical*/
 
 nav#sidebar-wrapper{ /*Css positionnement + background*/
-	width: 270px;
-	margin-top: 50px;
+	height: 1000px;
 	background-color: black;
+	padding: 0px;
 
 }
 nav#sidebar-wrapper li a{ /*Liens de la navbar*/
-	font-size: 13px;
+	font-size: 1em;
 	border-top-color: grey;
 }
 .sidebar-brand h2.name-navbar{ /*Css h2*/
-	font-size:12px;
+	font-size:0.9em;
 	text-align: center;
 	color: grey;
 }
-=======
 
 	.navbar-brand {
 		color: white !important;
@@ -187,6 +190,27 @@ nav#sidebar-wrapper li a{ /*Liens de la navbar*/
 	}
 
 
-/*---------------CSS NAVBAR GAUCHE--------------
+/*---------------IMAGES--------------
 ----------------------------------------------*/
->>>>>>> 4dc23c31429496d0102930657beaee199ff5684c
+
+/*CCS IMG*/
+
+
+/* CSS DIV NOIR IMG*/
+
+.img-3 {
+	padding: 0px;
+}
+
+.class-div-noire {
+	background-color: black;
+	height: 90px;
+	width: 100%;
+}
+
+/*CSS SECTION BLANCHE*/
+
+.div-blanche, .div-blanche2 {
+	height: 730px;
+	border: 1px solid red;
+}
