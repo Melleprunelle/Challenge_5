@@ -100,8 +100,8 @@ nav#sidebar-wrapper{ /*Css positionnement + background*/
 	background-color: black;
 	padding: 0px;
 	height: 1000px;
-
 }
+
 nav#sidebar-wrapper li a{ /*Liens de la navbar*/
 	font-size: 1em;
 	border-top-color: grey;
