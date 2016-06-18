@@ -100,11 +100,18 @@ nav#sidebar-wrapper{ /*Css positionnement + background*/
 	background-color: black;
 	padding: 0px;
 	height: 1000px;
+	width:225px;
+	
 }
 
 nav#sidebar-wrapper li a{ /*Liens de la navbar*/
-	font-size: 1em;
-	border-top-color: grey;
+	font-size: 11px;
+	border-bottom: solid 1px grey;
+
+}
+ul.sidebar-nav > li i{ /*Position des glyphicons*/
+	float:right;
+	
 }
 .sidebar-brand h2.name-navbar{ /*Css h2*/
 	font-size:0.9em;
@@ -112,15 +119,97 @@ nav#sidebar-wrapper li a{ /*Liens de la navbar*/
 	color: grey;
 }
 
-	.navbar-brand {
-		color: white !important;
-		font-family: "Lato", sans-serif;
-		font-weight: 400;
-		font-size: 0.8em;
-	}
 
-	.nav-style {background-color: black;
-	}
+.navbar-brand {
+	color: white !important;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 0.8em;
+}
+
+
+.nav-style {
+	background-color: black;
+}
+input.form-control{/*Barre de recherche - Dimension + background*/
+	width: 70%;
+	height: 25px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #191919;
+	
+}
+input#focusedInput{/*Bordure de la  barre de recherche*/
+	border: solid 1px grey;
+}
+/*Informations complémentaire de la barre de navigation*/
+.InfoComplementaires{
+	float: left;
+	margin-left: 15px;
+}
+p.recent {
+	
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom:0px;
+
+
+}
+.InfoComplementaires img{/*Image*/
+	position: relative;
+	
+	width: 163px;
+	height: 161px;
+	margin-top: 15px;
+}
+p.release{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	color: grey;
+	font-style: italic;
+
+}
+p.listen {
+	color: white;
+	text-decoration: none;
+}
+
+p.listen a:hover{
+	color: green;
+	text-decoration: none;
+}
+/*Titre list*/
+p.remerciements{
+	color: white;
+}
+/*List*/
+ul.noms-artistes{ 
+	list-style: none;
+	margin-bottom: 80px;
+}
+li.artistes a:hover{
+	color: green;
+	text-decoration: none;
+}
+p.site{
+	padding-right: 15px;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+
+}
+p.site a {
+	text-decoration: none;
+}
+p.site a:hover{
+	color: green;
+	text-decoration: none;
+}
 
 
 
