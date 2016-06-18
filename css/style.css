@@ -1,8 +1,15 @@
 * {margin: 0px; padding: 0px; box-sizing: border-box;}
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,400italic,700,700italic,900,900italic);
-body {margin-top: 50px;}
+body {margin-top: 50px; background-color: black;}
 /* VERT = #24890D*/
 
+.container2 {
+	background-color: red;
+}
+
+.merde {
+	background-color: red;
+}
 /*---------------CSS NAVBAR HAUT--------------
 ----------------------------------------------*/
 
@@ -99,9 +106,8 @@ body {margin-top: 50px;}
 nav#sidebar-wrapper{ /*Css positionnement + background*/
 	background-color: black;
 	padding: 0px;
-	height: 1000px;
-	width:225px;
-	
+	/*width:225px;*/
+	z-index: 100;	
 }
 
 nav#sidebar-wrapper li a{ /*Liens de la navbar*/
@@ -146,8 +152,8 @@ input#focusedInput{/*Bordure de la  barre de recherche*/
 }
 /*Informations complémentaire de la barre de navigation*/
 .InfoComplementaires{
-	float: left;
-	margin-left: 15px;
+	/*float: left;
+	/*margin-left: 15px;*/
 }
 p.recent {
 	
@@ -160,12 +166,11 @@ p.recent {
 
 }
 .InfoComplementaires img{/*Image*/
-	position: relative;
-	
-	width: 163px;
-	height: 161px;
+	/*width: 163px;
+	height: 161px;*/
 	margin-top: 15px;
 }
+
 p.release{
 	margin-top: 10px;
 	margin-bottom: 0px;
@@ -198,7 +203,6 @@ li.artistes a:hover{
 }
 p.site{
 	padding-right: 15px;
-	text-align: center;
 	color: white;
 	font-size: 13px;
 
@@ -286,17 +290,58 @@ p.site a:hover{
 
 .img-3 {
 	padding: 0px;
+	margin: 0px;
 }
 
 .class-div-noire {
 	background-color: black;
 	height: 90px;
 	width: 100%;
+	padding-top: 0px;
+}
+
+h5 {
+	color: white;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	font-family: "Lato" sans-serif;
+	font-size: 0.8em;
+	margin-top: 0px;
+}
+
+.text-img {
+	font-family: "Lato" sans-serif;
+	font-size: 1em;
+	color: white;
+	padding-top: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-transform: uppercase;
 }
 
 /*CSS SECTION BLANCHE*/
 
-.div-blanche, .div-blanche2 {
-	height: 709px;
+.div-blanche, .div-blanche2{
 	border: 1px solid red;
+	height: 50.4em;
+	background-color: white;
+}
+
+.container-div-blanche {
+}
+
+/*---------------FOOTER--------------
+----------------------------------------------*/
+
+footer{
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+}
+
+.text-footer {
+	margin: 10px;
+	color: white;
+	font-family: "Lato" sans-serif;
 }
