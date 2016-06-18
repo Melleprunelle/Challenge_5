@@ -1,0 +1,213 @@
+* {margin: 0px; padding: 0px; box-sizing: border-box;}
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,400italic,700,700italic,900,900italic);
+body {margin-top: 50px;}
+/* VERT = #24890D*/
+
+/*---------------CSS NAVBAR HAUT--------------
+----------------------------------------------*/
+
+
+/*CSS TITRE NAVBAR*/
+
+	.navbar-brand {
+		color: white !important;
+		font-family: "Lato", sans-serif;
+		font-weight: 400;
+		font-size: 1.2em !important;
+	}
+
+	.nav-style {background-color: black;
+	}
+
+
+
+/*CSS DE LA LOUPE + MENU DEROULANT LOUPE*/
+
+	.dropdown {
+		background-color: #24890D;
+		float: right;
+		text-align: center;
+	}
+
+	.pull-right {
+		width: 50px;
+		height: 50px;
+		background-color: #24890D;
+		border: none;
+		margin: 0px;
+		border-radius: 0px;
+		box-shadow: 0px 0px 0px;
+	}
+
+	#search {
+		width: 300px;
+		height: 30px;
+		}
+
+
+
+/*CSS DE LA NAV FORMAT SMART*/
+
+	.navbar {
+		margin-bottom: 0px !important;
+		border-radius: 0px !important;
+	}
+
+	.navbar-toggle {
+		border:none;
+	}
+
+	.icon-bar {
+		border-radius: 0px !important; width: 15px !important;
+	}
+
+	.navbar-inverse .navbar-toggle:hover,
+	.navbar-inverse .navbar-toggle:focus {
+		background-color: black;
+	}
+
+
+
+/*CSS LIENS NAVBAR + FORM SEARCH*/
+
+	.nav-liens {
+		color: white !important;
+		font-size: 0.7em;
+	}
+
+	.nav-liens:hover {
+		background-color: #24890D !important;
+	}
+
+	i {color: #F58900;}
+
+	.form-control {
+		width: 50%;
+		height: 20px;
+		font-size: 0.7em;
+		float: right;
+		margin-right: 10px;
+		border:none;
+		border-radius: 2px;
+	}
+
+
+/*---------------CSS NAVBAR GAUCHE--------------
+----------------------------------------------*/
+/*Css navbar vertical*/
+
+nav#sidebar-wrapper{ /*Css positionnement + background*/
+	background-color: black;
+	padding: 0px;
+	height: 1000px;
+
+}
+nav#sidebar-wrapper li a{ /*Liens de la navbar*/
+	font-size: 1em;
+	border-top-color: grey;
+}
+.sidebar-brand h2.name-navbar{ /*Css h2*/
+	font-size:0.9em;
+	text-align: center;
+	color: grey;
+}
+
+	.navbar-brand {
+		color: white !important;
+		font-family: "Lato", sans-serif;
+		font-weight: 400;
+		font-size: 0.8em;
+	}
+
+	.nav-style {background-color: black;
+	}
+
+
+
+/*CSS DE LA LOUPE + MENU DEROULANT LOUPE*/
+
+	.dropdown {
+		background-color: #24890D;
+		float: right;
+		text-align: center;
+	}
+
+	.pull-right {
+		width: 50px;
+		height: 50px;
+		background-color: #24890D;
+		border: none;
+		margin: 0px;
+		border-radius: 0px;
+		box-shadow: 0px 0px 0px;
+	}
+
+	#search {
+		width: 300px;
+		height: 30px;
+		}
+
+
+
+/*CSS DE LA NAV FORMAT SMART*/
+
+	.navbar-toggle {
+		border:none;
+	}
+
+	.icon-bar {
+		border-radius: 0px !important; width: 15px !important;
+	}
+
+	.navbar-inverse .navbar-toggle:hover,
+	.navbar-inverse .navbar-toggle:focus {
+		background-color: black;
+	}
+
+
+
+/*CSS LIENS NAVBAR + FORM SEARCH*/
+
+	.nav-liens {
+		color: white !important;
+		font-size: 0.7em;
+	}
+
+	.nav-liens:hover {
+		background-color: #24890D !important;
+	}
+
+	i {color: #F58900;}
+
+	.form-control {
+		width: 50%;
+		height: 20px;
+		font-size: 0.7em;
+		float: right;
+		margin-right: 10px;
+		border:none;
+		border-radius: 2px;
+	}
+
+
+/*---------------IMAGES--------------
+----------------------------------------------*/
+
+/* CSS DIV NOIR IMG*/
+
+.img-3 {
+	padding: 0px;
+}
+
+.class-div-noire {
+	background-color: black;
+	height: 90px;
+	width: 100%;
+}
+
+/*CSS SECTION BLANCHE*/
+
+.div-blanche, .div-blanche2 {
+	height: 709px;
+	border: 1px solid red;
+}
