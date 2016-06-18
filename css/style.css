@@ -7,9 +7,6 @@ body {margin-top: 50px; background-color: black;}
 	background-color: red;
 }
 
-.merde {
-	background-color: red;
-}
 /*---------------CSS NAVBAR HAUT--------------
 ----------------------------------------------*/
 
@@ -202,7 +199,6 @@ li.artistes a:hover{
 	text-decoration: none;
 }
 p.site{
-	padding-right: 15px;
 	color: white;
 	font-size: 13px;
 
@@ -293,6 +289,15 @@ p.site a:hover{
 	margin: 0px;
 }
 
+.fond-div-img {
+	background-color: #2D241E;
+}
+
+.fond-div-img:hover {
+	background-color: #130E0A;
+	transition-duration: 2s;
+}
+
 .class-div-noire {
 	background-color: black;
 	height: 90px;
@@ -302,7 +307,7 @@ p.site a:hover{
 
 h5 {
 	color: white;
-	padding-left: 15px;
+	padding-left: 10px;
 	padding-top: 15px;
 	padding-right: 15px;
 	font-family: "Lato" sans-serif;
@@ -312,11 +317,11 @@ h5 {
 
 .text-img {
 	font-family: "Lato" sans-serif;
-	font-size: 1em;
+	font-size: 0.85em;
 	color: white;
 	padding-top: 0px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 	text-transform: uppercase;
 }
 
@@ -324,7 +329,7 @@ h5 {
 
 .div-blanche, .div-blanche2{
 	border: 1px solid red;
-	height: 50.4em;
+	height: 1000px;
 	background-color: white;
 }
 
