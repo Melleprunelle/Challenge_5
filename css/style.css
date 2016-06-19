@@ -148,10 +148,7 @@ input#focusedInput{/*Bordure de la  barre de recherche*/
 	border: solid 1px grey;
 }
 /*Informations complémentaire de la barre de navigation*/
-.InfoComplementaires{
-	/*float: left;
-	/*margin-left: 15px;*/
-}
+
 p.recent {
 	
 	color: white;
@@ -162,11 +159,7 @@ p.recent {
 
 
 }
-.InfoComplementaires img{/*Image*/
-	/*width: 163px;
-	height: 161px;*/
-	margin-top: 15px;
-}
+
 
 p.release{
 	margin-top: 10px;
@@ -176,38 +169,58 @@ p.release{
 	font-style: italic;
 
 }
+
 p.listen {
+
 	color: white;
 	text-decoration: none;
+	margin-bottom: 70px;
+	font-size: 12px;
 }
-
+p.listen a{
+	color: white;
+}
 p.listen a:hover{
-	color: green;
+	color: #24890D;
 	text-decoration: none;
 }
 /*Titre list*/
 p.remerciements{
 	color: white;
+	
+	font-size: 11px;
+	font-weight: 800;
+	
 }
 /*List*/
 ul.noms-artistes{ 
 	list-style: none;
 	margin-bottom: 80px;
+	font-size: 18px;
 }
+li.artistes a{
+	color:white;
+
+}
+
 li.artistes a:hover{
-	color: green;
+	color: #24890D;
 	text-decoration: none;
 }
 p.site{
-	color: white;
-	font-size: 13px;
+	color: grey;
+	font-size: 12px;
+	padding-left: 0px; 
+	padding-right: 0px;
+	
 
 }
 p.site a {
+	color: white;
 	text-decoration: none;
 }
 p.site a:hover{
-	color: green;
+	color: #24890D;
 	text-decoration: none;
 }
 
@@ -347,6 +360,15 @@ footer{
 
 .text-footer {
 	margin: 10px;
-	color: white;
+	color: grey;
 	font-family: "Lato" sans-serif;
+	font-size: 12px;
+}
+p.text-footer a{
+	color: grey;
+}
+p.text-footer a:hover{
+	color:#24890D;
+	text-decoration: none;
+	cursor: pointer;
 }
