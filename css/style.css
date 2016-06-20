@@ -274,11 +274,6 @@ p.site a:hover{
 
 /* CSS DIV NOIR IMG*/
 
-.img-3 {
-	padding: 0px;
-	margin: 0px;
-}
-
 .fond-div-img {
 	background-color: #2D241E;
 }
@@ -291,8 +286,6 @@ p.site a:hover{
 .class-div-noire {
 	background-color: black;
 	height: 90px;
-	width: 100%;
-	padding-top: 0px;
 }
 
 .text-img {
