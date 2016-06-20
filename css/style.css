@@ -3,12 +3,41 @@
 body {margin-top: 50px; background-color: black;}
 /* VERT = #24890D*/
 
-.container2 {
-	background-color: red;
+
+/* ================================================== */
+/* ====================== BASE ====================== */
+/* ================================================== */
+
+.col-xs-1, .col-sm-1, .col-md-1,
+.col-lg-1, .col-xs-2, .col-sm-2, .col-md-2,
+.col-lg-2, .col-xs-3, .col-sm-3, .col-md-3,
+.col-lg-3, .col-xs-4, .col-sm-4, .col-md-4,
+.col-lg-4, .col-xs-5, .col-sm-5, .col-md-5,
+.col-lg-5, .col-xs-6, .col-sm-6, .col-md-6,
+.col-lg-6, .col-xs-7, .col-sm-7, .col-md-7,
+.col-lg-7, .col-xs-8, .col-sm-8, .col-md-8,
+.col-lg-8, .col-xs-9, .col-sm-9, .col-md-9,
+.col-lg-9, .col-xs-10, .col-sm-10, .col-md-10,
+.col-lg-10, .col-xs-11, .col-sm-11, .col-md-11,
+.col-lg-11, .col-xs-12, .col-sm-12, .col-md-12,
+.col-lg-12 {padding-left: 0px; padding-right: 0px;}
+
+h5 {
+	color: white;
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-right: 15px;
+	font-family: "Lato" sans-serif;
+	font-size: 0.8em;
+	margin-top: 0px;
 }
 
-/*---------------CSS NAVBAR HAUT--------------
-----------------------------------------------*/
+i {color: white !important;}
+
+
+/* ================================================== */
+/* ====================== NAV PRINCIPALE ============ */
+/* ================================================== */
 
 
 /*CSS TITRE NAVBAR*/
@@ -34,8 +63,8 @@ body {margin-top: 50px; background-color: black;}
 	}
 
 	.pull-right {
-		/*width: 50px;
-		height: 50px;*/
+		width: 50px;
+		height: 50px;
 		background-color: #24890D;
 		border: none;
 		margin: 0px;
@@ -49,27 +78,26 @@ body {margin-top: 50px; background-color: black;}
 		}
 
 
+/*CSS LIENS NAVBAR + FORM SEARCH*/
 
-/*CSS DE LA NAV FORMAT SMART*/
-
-	.navbar {
-		margin-bottom: 0px !important;
-		border-radius: 0px !important;
+	.nav-liens {
+		color: white !important;
+		font-size: 0.7em;
 	}
 
-	.navbar-toggle {
+	.nav-liens:hover {
+		background-color: #24890D !important;
+	}
+
+	.form-control-loupe {
+		width: 50%;
+		height: 20px;
+		font-size: 0.7em;
+		float: right;
+		margin-right: 10px;
 		border:none;
+		border-radius: 2px;
 	}
-
-	.icon-bar {
-		border-radius: 0px !important; width: 15px !important;
-	}
-
-	.navbar-inverse .navbar-toggle:hover,
-	.navbar-inverse .navbar-toggle:focus {
-		background-color: black;
-	}
-
 
 
 /*CSS LIENS NAVBAR + FORM SEARCH*/
@@ -83,8 +111,6 @@ body {margin-top: 50px; background-color: black;}
 		background-color: #24890D !important;
 	}
 
-	i {color: white !important;}
-
 	.form-control {
 		width: 50%;
 		height: 20px;
@@ -96,15 +122,17 @@ body {margin-top: 50px; background-color: black;}
 	}
 
 
-/*---------------CSS NAVBAR GAUCHE--------------
-----------------------------------------------*/
+/* ================================================== */
+/* ====================== NAV SECONDAIRE ============ */
+/* ================================================== */
+
 /*Css navbar vertical*/
 
 nav#sidebar-wrapper{ /*Css positionnement + background*/
 	background-color: black;
 	padding: 0px;
 	/*width:225px;*/
-	z-index: 100;	
+	/*z-index: 100;*/	
 }
 
 nav#sidebar-wrapper li a{ /*Liens de la navbar*/
@@ -224,33 +252,6 @@ p.site a:hover{
 	text-decoration: none;
 }
 
-
-
-/*CSS DE LA LOUPE + MENU DEROULANT LOUPE*/
-
-	.dropdown {
-		background-color: #24890D;
-		float: right;
-		text-align: center;
-	}
-
-	.pull-right {
-		width: 50px;
-		height: 50px;
-		background-color: #24890D;
-		border: none;
-		margin: 0px;
-		border-radius: 0px;
-		box-shadow: 0px 0px 0px;
-	}
-
-	#search {
-		width: 300px;
-		height: 30px;
-		}
-
-
-
 /*CSS DE LA NAV FORMAT SMART*/
 
 	.navbar-toggle {
@@ -267,33 +268,9 @@ p.site a:hover{
 	}
 
 
-
-/*CSS LIENS NAVBAR + FORM SEARCH*/
-
-	.nav-liens {
-		color: white !important;
-		font-size: 0.7em;
-	}
-
-	.nav-liens:hover {
-		background-color: #24890D !important;
-	}
-
-	i {color: #F58900;}
-
-	.form-control {
-		width: 50%;
-		height: 20px;
-		font-size: 0.7em;
-		float: right;
-		margin-right: 10px;
-		border:none;
-		border-radius: 2px;
-	}
-
-
-/*---------------IMAGES--------------
-----------------------------------------------*/
+/* ================================================== */
+/* ====================== SECTION IMG =============== */
+/* ================================================== */
 
 /* CSS DIV NOIR IMG*/
 
@@ -318,16 +295,6 @@ p.site a:hover{
 	padding-top: 0px;
 }
 
-h5 {
-	color: white;
-	padding-left: 10px;
-	padding-top: 15px;
-	padding-right: 15px;
-	font-family: "Lato" sans-serif;
-	font-size: 0.8em;
-	margin-top: 0px;
-}
-
 .text-img {
 	font-family: "Lato" sans-serif;
 	font-size: 0.85em;
@@ -338,7 +305,10 @@ h5 {
 	text-transform: uppercase;
 }
 
-/*CSS SECTION BLANCHE*/
+/* ================================================== */
+/* ====================== SECTION BLANCHE =========== */
+/* ================================================== */
+
 
 .div-blanche, .div-blanche2{
 	border: 1px solid red;
@@ -346,28 +316,26 @@ h5 {
 	background-color: white;
 }
 
-.container-div-blanche {
-}
 
-/*---------------FOOTER--------------
-----------------------------------------------*/
+/* ================================================== */
+/* ====================== FOOTER ===================== */
+/* ================================================== */
 
 footer{
 	background-color: black;
-	padding: 0px;
-	margin: 0px;
 }
 
 .text-footer {
 	margin: 10px;
-	color: grey;
 	font-family: "Lato" sans-serif;
 	font-size: 12px;
 }
-p.text-footer a{
+
+.text-footer a{
 	color: grey;
 }
-p.text-footer a:hover{
+
+.text-footer a:hover{
 	color:#24890D;
 	text-decoration: none;
 	cursor: pointer;
