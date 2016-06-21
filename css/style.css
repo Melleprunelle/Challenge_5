@@ -131,8 +131,7 @@ i {color: white !important;}
 nav#sidebar-wrapper{ /*Css positionnement + background*/
 	background-color: black;
 	padding: 0px;
-	/*width:225px;*/
-	/*z-index: 100;*/	
+	
 }
 
 nav#sidebar-wrapper li a{ /*Liens de la navbar*/
@@ -183,13 +182,13 @@ p.recent {
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 30px;
+	margin-left: 27px;
 	margin-bottom:0px;
-
-
 }
 
 
 p.release{
+	margin-left: 27px;
 	margin-top: 10px;
 	margin-bottom: 0px;
 	font-size: 13px;
@@ -203,6 +202,7 @@ p.listen {
 	color: white;
 	text-decoration: none;
 	margin-bottom: 70px;
+	margin-left: 27px;
 	font-size: 12px;
 }
 p.listen a{
@@ -215,7 +215,7 @@ p.listen a:hover{
 /*Titre list*/
 p.remerciements{
 	color: white;
-	
+	margin-left: 27px;
 	font-size: 11px;
 	font-weight: 800;
 	
@@ -224,6 +224,7 @@ p.remerciements{
 ul.noms-artistes{ 
 	list-style: none;
 	margin-bottom: 80px;
+	margin-left: 27px;
 	font-size: 18px;
 }
 li.artistes a{
@@ -240,7 +241,9 @@ p.site{
 	font-size: 12px;
 	padding-left: 0px; 
 	padding-right: 0px;
-	
+	margin-left: 26px;
+	margin-right: 0px;
+	text-align: center;
 
 }
 p.site a {
@@ -259,7 +262,8 @@ p.site a:hover{
 	}
 
 	.icon-bar {
-		border-radius: 0px !important; width: 15px !important;
+		border-radius: 0px !important; 
+		width: 15px !important;
 	}
 
 	.navbar-inverse .navbar-toggle:hover,
@@ -302,13 +306,11 @@ p.site a:hover{
 /* ====================== SECTION BLANCHE =========== */
 /* ================================================== */
 
-
 .div-blanche, .div-blanche2{
 	border: 1px solid red;
 	height: 1000px;
 	background-color: white;
 }
-
 
 /* ================================================== */
 /* ====================== FOOTER ===================== */
