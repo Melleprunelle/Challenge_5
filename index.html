@@ -8,11 +8,12 @@
 	<script src="js/jquery.js"></script>
   	<script src="js/bootstrap.js"></script>
   	<link type="text/css" rel="stylesheet" href="css/font-awesome.css"/>
+  	<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
 </head>
 
 <body class="container-fluid">
 
-<!--navbar-->
+<!--NAVBAR PRINCIPALE-->
 <nav class="navbar navbar-inverse navbar-fixed-top nav-style">
 	<div class="dropdown">
 		<button class="nav-bouton pull-right" type="button" data-toggle="dropdown"><i class="fa fa-1x fa-search"></i></button>
@@ -49,25 +50,31 @@
  	</div>
 </nav>
 
-<!--img + légende noire img + section blanche-->
+<!--IMG + LEGENDE + DIV BLANCHES-->
 <section class="col-lg-10 col-lg-push-2">
 	<header class="row fond-div-img">
     <div class="col-lg-4 col-md-6 col-sm-12">
-		<img class="img-responsive" src="img/nowell-featured-image-1038x576.jpg">
+    	<div class="truc">
+			<a href="#" alt="BLOG"><img class="img-responsive" src="img/nowell-featured-image-1038x576.jpg"></a>
+		</div>
 		<div class="class-div-noire">
 			<h5>BLOG</h5>
 			<p class="text-img">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 		</div>
 	</div>
 	<div class="col-lg-4 col-md-6 col-sm-12">
-		<img class="img-responsive" src="img/322267385_640.jpg">
+		<div class="truc">
+			<a href="#" alt="VIDEOS"><img class="img-responsive" src="img/322267385_640.jpg"></a>
+		</div>
 		<div class="class-div-noire">
 			<h5>VIDEOS</h5>
 			<p class="text-img">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 		</div>
 	</div>
 	<div class="col-lg-4 col-md-6 col-sm-12">
-		<img class="img-responsive" src="img/rodney-hayden-atascosa-sand.jpg">
+		<div class="truc">
+			<a href="#" alt="RECORD"><img class="img-responsive" src="img/rodney-hayden-atascosa-sand.jpg"></a>
+		</div>
 		<div class="class-div-noire">
 			<h5>RECORD</h5>
 			<p class="text-img">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
@@ -75,36 +82,67 @@
 	</div>
 	</header>
 
-	<section class="col-lg-12">
+	<article class="col-lg-12">
 		<div class="row">
-		<!--CONTENU DIV BLANCHE-->
-			<div class="col-lg-8 col-md-7 div-blanche">
-		<section class="audiotheme">
+		<div class="col-lg-8 col-md-7 div-blanche"><!--CONTENU DIV BLANCHE 1-->
+			<section class="audiotheme">
+				<h1 class="demo">AudioTheme Framework Demo</h1>
+				<iframe width="480" height="310" src="https://www.youtube.com/embed/uIi44Hgjpl8" frameborder="0" allowfullscreen></iframe>
+				<p class="paragraphe1">The <a href="#">AudioTheme Framework</a> plugin is built to work with any WordPress theme, providing the features needed for a music-oriented website and allowing you to take your content with you anywhere you go — even when switching themes.</p>
 
-			<h1 class="demo">AudioTheme Framework Demo</h1>
-			<iframe width="480" height="310" src="https://www.youtube.com/embed/uIi44Hgjpl8" frameborder="0" allowfullscreen></iframe>
-		<p class="paragraphe1">The <a href="#">AudioTheme Framework</a> plugin is built to work with any WordPress theme, providing the features needed for a music-oriented website and allowing you to take your content with you anywhere you go — even when switching themes.</p>
-
-		<p class="parapgraphe2">In this demo, we’ve showcased how the AudioTheme Framework will look with the Twenty Fourteen theme and a little help with this child theme we’ve created. Take a look around at the functionality for displaying gigs and venues, discography (liner notes for the web), and videos.</p>
-		</section>
-				
-			</div>
-		<!--CONTENU DIV BLANCHE 2-->
-			<div class="col-lg-4 col-md-5 div-blanche2">
-			
-				
-			</div> 
+				<p class="parapgraphe2">In this demo, we’ve showcased how the AudioTheme Framework will look with the Twenty Fourteen theme and a little help with this child theme we’ve created. Take a look around at the functionality for displaying gigs and venues, discography (liner notes for the web), and videos.</p>
+			</section>
 		</div>
-	</section>
+
+		<div class="col-lg-4 col-md-5 div-blanche2"><!--CONTENU DIV BLANCHE 2-->
+				<div class="separator-black col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-md-10 col-xs-offset-1 col-xs-10"></div>
+				<h4 class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10">UPCOMING GIGS</h4>
+
+				<div class="separator-text col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10">
+	    			<a href="#"><h4>Miller Auditorium</h4></a>
+	    			<a href="#"><h5>Kalamazoo, MI, United States</h5></a>
+					<p>October 10, 2016</p>
+				</div>
+				
+				<div class="separator-text col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10">
+	    			<a href="#"><h4>Royal Albert Hall</h4></a>
+	    			<a href="#"><h5>London, ENG, United Kingdom</h5></a>
+					<p>April 24, 2017</p>
+				</div>
+
+    			<div class="separator-text col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10">
+	    			<a href="#"><h4>Spokane Arena</h4></a>
+	    			<a href="#"><h5>Spokane, WA, United States</h5></a>
+					<p>May 20, 2017</p>
+				</div>
+
+				<div class="row">
+					<div class="separator-black col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10">
+					</div>
+					<div class="div-arrow col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10">
+					<i class="fa fa-2x fa-arrow-right" aria-hidden="true"></i>
+					</div>
+					<h4 class="col-lg-6 col-md-6 col-xs-6">FEATURED VIDEO</h4>
+					<img class="img-responsive col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10" src="img/audiotheme-overview-video-thumbnail.jpg">
+				</div>
+
+				<div class="separator-text col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10">
+				<p class="text-sous-image">Overview showcasing a few of the features available in the
+				<a href="#"> AudioTheme Framework</a>
+				via the WordPress admin.</p>
+				</div>
+			</div>
+		</div>
+	</article>
 </section>
 
-<!--nav gauche-->
+<!--NAV SECONDAIRE GAUCHE-->
 <div class="row">
-	<section class="col-lg-2 col-lg-pull-10">
+	<section class="col-lg-2 col-lg-pull-10 navgauche">
 	<nav id="sidebar-wrapper"  class="navbar navbar-inverse" role="navigation">
 	        <ul class="nav sidebar-nav">
 	            <li class="sidebar-brand">
-	                    <h2 class="name-navbar">Twenty Fourteen Child Theme</h2>
+	                <h2 class="name-navbar">Twenty Fourteen Child Theme</h2>
 	            </li>
 	            <li><a class="nav-liens" href="#">CREDITS</a></li>
 	            <li><a class="nav-liens" href="#">BLOG/NEWS</a></li>

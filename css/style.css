@@ -1,5 +1,4 @@
 * {margin: 0px; padding: 0px; box-sizing: border-box;}
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,400italic,700,700italic,900,900italic);
 body {margin-top: 50px; background-color: black;}
 /* VERT = #24890D*/
 
@@ -8,6 +7,10 @@ body {margin-top: 50px; background-color: black;}
 /* ====================== BASE ====================== */
 /* ================================================== */
 
+[class*="col-"] {
+	padding-right: 0px;
+	padding-left: 0px;
+} /*========>
 .col-xs-1, .col-sm-1, .col-md-1,
 .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2,
 .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3,
@@ -20,7 +23,7 @@ body {margin-top: 50px; background-color: black;}
 .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10,
 .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11,
 .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12,
-.col-lg-12 {padding-left: 0px; padding-right: 0px;}
+.col-lg-12 {padding-left: 0px; padding-right: 0px;}*/
 
 h5 {
 	color: white;
@@ -127,6 +130,11 @@ i {color: white !important;}
 /* ================================================== */
 
 /*Css navbar vertical*/
+
+.navgauche {
+	padding-left: 15px;
+	padding-left: 15px;
+}
 
 nav#sidebar-wrapper{ /*Css positionnement + background*/
 	background-color: black;
@@ -260,7 +268,7 @@ p.site a:hover{
 
 /*CSS DE LA NAV FORMAT SMART*/
 
-	.navbar-toggle {
+	/*.navbar-toggle {
 		border:none;
 	}
 
@@ -272,7 +280,7 @@ p.site a:hover{
 	.navbar-inverse .navbar-toggle:hover,
 	.navbar-inverse .navbar-toggle:focus {
 		background-color: black;
-	}
+	}*/
 
 
 /* ================================================== */
@@ -281,14 +289,25 @@ p.site a:hover{
 
 /* CSS DIV NOIR IMG*/
 
-.fond-div-img {
+.truc :hover {
+	opacity: 0.8;
+}
+
+.truc {
+	/*background-color: black;*/
+	background-image: url(img/hover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*.fond-div-img {
 	background-color: #2D241E;
 }
 
 .fond-div-img:hover {
 	background-color: #130E0A;
 	transition-duration: 2s;
-}
+}*/
 
 .class-div-noire {
 	background-color: black;
@@ -306,7 +325,7 @@ p.site a:hover{
 }
 
 /* ================================================== */
-/* ====================== SECTION BLANCHE 2 =========== */
+/* ====================== SECTION BLANCHE 1 =========== */
 /* ================================================== */
 section.audiotheme{
 	max-width: 480px;
@@ -333,11 +352,90 @@ p.paragraphe2{
 
 }
 
+/* ================================================== */
+/* ====================== SECTION BLANCHE 1 =========== */
+/* ================================================== */
 
 .div-blanche, .div-blanche2{
-	border: 1px solid red;
 	height: 1000px;
 	background-color: white;
+}
+
+.div-blanche2 h4 {
+	font-family: "Lato";
+	font-weight: 900;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.div-blanche2 .row {
+	padding: 0px;
+	margin : 0px;
+}
+
+.div-blanche2 img {
+	margin-bottom: 20px;
+}
+
+.separator-text {
+	border-bottom: 1px solid grey;
+	margin-bottom: 20px;
+	max-width: 90%;
+}
+
+.separator-text h4 {
+	font-size: 14px;
+	color: #24890D;
+	margin-bottom: 5px;
+}
+
+.separator-text h5 {
+	font-weight: 400;
+	font-style: italic;
+	font-size: 13px;
+	color: #767676;
+	padding: 0px;
+	margin: 0px;
+}
+
+.separator-text p {
+	color: #767676;
+	font-size: 13px;
+	padding: 0px;
+	margin: 0px 0px 5px 0px;
+}
+
+.separator-text a {
+	text-decoration: none;
+}
+
+.separator-text a:hover {
+	opacity: 0.8;
+}
+
+.separator-black {
+	height: 5px;
+	background-color: black;
+}
+
+.div-arrow {
+	background-color: black;
+	width: 50px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.div-arrow i {
+	padding-top: 3px;
+	padding-bottom: 8px;
+}
+
+.text-sous-image {
+	font-style: italic;
+}
+
+.text-sous-image a {
+	color: #24890D;
 }
 
 /* ================================================== */
