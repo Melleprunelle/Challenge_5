@@ -39,7 +39,7 @@ i {color: white !important;}
 
 
 /* ================================================== */
-/* ====================== NAV PRINCIPALE ============ */
+/* =============== NAV PRINCIPALE / LISE ============ */
 /* ================================================== */
 
 
@@ -67,7 +67,7 @@ i {color: white !important;}
 
 	.pull-right {
 		width: 50px;
-		height: 50px;
+		height: 53.3px;
 		background-color: #24890D;
 		border: none;
 		margin: 0px;
@@ -76,7 +76,7 @@ i {color: white !important;}
 	}
 
 	#search {
-		width: 300px;
+		width: 1135px;
 		height: 30px;
 		}
 
@@ -93,7 +93,7 @@ i {color: white !important;}
 	}
 
 	.form-control-loupe {
-		width: 50%;
+		width: 20%;
 		height: 20px;
 		font-size: 0.7em;
 		float: right;
@@ -126,7 +126,7 @@ i {color: white !important;}
 
 
 /* ================================================== */
-/* ====================== NAV SECONDAIRE ============ */
+/* ============= NAV SECONDAIRE / ANNIELINE ========= */
 /* ================================================== */
 
 /*Css navbar vertical*/
@@ -284,7 +284,7 @@ p.site a:hover{
 
 
 /* ================================================== */
-/* ====================== SECTION IMG =============== */
+/* ================ SECTION IMG / LISE ============== */
 /* ================================================== */
 
 /* CSS DIV NOIR IMG*/
@@ -325,7 +325,7 @@ p.site a:hover{
 }
 
 /* ================================================== */
-/* ====================== SECTION BLANCHE 1 =========== */
+/* ============= SECTION BLANCHE 1 / LISE =========== */
 /* ================================================== */
 
 section.audiotheme{
@@ -362,6 +362,10 @@ p.paragraphe2{
 	background-color: white;
 }
 
+.machin {
+	padding-top: 60px;
+}
+
 .div-blanche2 h4 {
 	font-family: "Lato";
 	font-weight: 900;
@@ -380,7 +384,7 @@ p.paragraphe2{
 
 .separator-text {
 	border-bottom: 1px solid grey;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	max-width: 90%;
 }
 
@@ -433,6 +437,7 @@ p.paragraphe2{
 
 .text-sous-image {
 	font-style: italic;
+	color: #767676;
 }
 
 .text-sous-image a {
