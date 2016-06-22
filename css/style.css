@@ -190,7 +190,7 @@ p.recent {
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 30px;
-	margin-left: 27px;
+	/*margin-left: 27px;*/
 	margin-bottom:0px;
 }
 
@@ -199,7 +199,7 @@ img.img-responsive.col-md-12.offset-1.col-md-10{
 }
 
 p.release{
-	margin-left: 27px;
+	/*margin-left: 27px;*/
 	margin-top: 10px;
 	margin-bottom: 0px;
 	font-size: 13px;
@@ -213,7 +213,7 @@ p.listen {
 	color: white;
 	text-decoration: none;
 	margin-bottom: 70px;
-	margin-left: 27px;
+	/*margin-left: 27px;*/
 	font-size: 12px;
 }
 p.listen a{
@@ -226,7 +226,7 @@ p.listen a:hover{
 /*Titre list*/
 p.remerciements{
 	color: white;
-	margin-left: 27px;
+	/*margin-left: 27px;*/
 	font-size: 11px;
 	font-weight: 800;
 	
@@ -235,7 +235,7 @@ p.remerciements{
 ul.noms-artistes{ 
 	list-style: none;
 	margin-bottom: 80px;
-	margin-left: 27px;
+	/*margin-left: 27px;*/
 	font-size: 18px;
 }
 li.artistes a{
@@ -252,7 +252,7 @@ p.site{
 	font-size: 12px;
 	padding-left: 0px; 
 	padding-right: 0px;
-	margin-left: 26px;
+	/*margin-left: 26px;*/
 	margin-right: 0px;
 	text-align: center;
 
