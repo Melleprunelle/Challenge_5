@@ -357,8 +357,7 @@ p.paragraphe2{
 /* ====================== SECTION BLANCHE 2 ========= */
 /* ================================================== */
 
-.div-blanche, .div-blanche2{
-	height: 1000px;
+.section-blanche{
 	background-color: white;
 }
 
