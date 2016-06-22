@@ -1,5 +1,4 @@
 * {margin: 0px; padding: 0px; box-sizing: border-box;}
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,400italic,700,700italic,900,900italic);
 body {margin-top: 50px; background-color: black;}
 /* VERT = #24890D*/
 
@@ -254,18 +253,19 @@ p.site a:hover{
 
 /*CSS DE LA NAV FORMAT SMART*/
 
-	.navbar-toggle {
+	/*.navbar-toggle {
 		border:none;
 	}
 
 	.icon-bar {
-		border-radius: 0px !important; width: 15px !important;
+		border-radius: 0px !important;
+		width: 15px !important;
 	}
 
 	.navbar-inverse .navbar-toggle:hover,
 	.navbar-inverse .navbar-toggle:focus {
 		background-color: black;
-	}
+	}*/
 
 
 /* ================================================== */
