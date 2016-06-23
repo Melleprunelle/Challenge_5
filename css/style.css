@@ -198,7 +198,10 @@ p.recent {
 img.img-responsive.col-md-12.offset-1.col-md-10{
 	margin-left:26px; 
 }
-
+.img-responsive.col-lg-12{
+	padding-left: 30px;
+	padding-right: 30px;
+}
 p.release{
 	margin-top: 10px;
 	margin-left: 0px;
@@ -344,7 +347,6 @@ p.site a:hover{
 
 section.audiotheme{
 	max-width: 480px;
-	/*margin-top: 60px;*/
 	margin-right: auto;
 	margin-left: auto;
 }
