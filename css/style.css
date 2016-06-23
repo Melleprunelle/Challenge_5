@@ -25,15 +25,6 @@ body {margin-top: 50px; background-color: black;}
 .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12,
 .col-lg-12 {padding-left: 0px; padding-right: 0px;}*/
 
-h5 {
-	color: white;
-	padding-left: 10px;
-	padding-top: 15px;
-	padding-right: 15px;
-	font-family: "Lato" sans-serif;
-	font-size: 0.8em;
-	margin-top: 0px;
-}
 
 i {color: white !important;}
 
@@ -254,7 +245,7 @@ p.site{
 	padding-right: 0px;
 	/*margin-left: 26px;*/
 	margin-right: 0px;
-	text-align: center;
+	/*text-align: center;*/
 
 }
 p.site a {
@@ -289,38 +280,44 @@ p.site a:hover{
 
 /* CSS DIV NOIR IMG*/
 
-.truc :hover {
-	opacity: 0.8;
+.img-invisible {
+	width: 100%;
+	height: 385px;
 }
 
-.truc {
-	/*background-color: black;*/
-	background-image: url(img/hover.jpg);
+.tentative-hover-image:hover {
+	opacity: 0.4;
+}
+
+.tentative-hover-image {
+	background-color: black;
+	/*background-image: url(img/hover.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
-
-/*.fond-div-img {
-	background-color: #2D241E;
-}
-
-.fond-div-img:hover {
-	background-color: #130E0A;
-	transition-duration: 2s;
-}*/
 
 .class-div-noire {
 	background-color: black;
 	height: 90px;
 }
 
-.text-img {
+.class-div-noire h5 {
+	color: white;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: "Lato" sans-serif;
+	font-size: 0.8em;
+	margin-top: 0px;
+}
+
+.class-div-noire p{
 	font-family: "Lato" sans-serif;
 	font-size: 0.85em;
 	color: white;
-	padding-top: 0px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	text-transform: uppercase;
 }
 
@@ -330,7 +327,7 @@ p.site a:hover{
 
 section.audiotheme{
 	max-width: 480px;
-	margin-top: 60px;
+	/*margin-top: 60px;*/
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -361,8 +358,9 @@ p.paragraphe2{
 	background-color: white;
 }
 
-.machin {
+.padding {
 	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .div-blanche2 h4 {
@@ -427,6 +425,7 @@ p.paragraphe2{
 	width: 50px;
 	text-align: center;
 	margin-right: 10px;
+	margin-bottom: 20px;
 }
 
 .div-arrow i {
@@ -437,6 +436,7 @@ p.paragraphe2{
 .text-sous-image {
 	font-style: italic;
 	color: #767676;
+	margin-top: 10px;
 }
 
 .text-sous-image a {
