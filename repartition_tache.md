@@ -1,5 +1,7 @@
 #Projet par Lise et Annie-Line
 
+![AUDIOTHEME](img/markdown.png)
+
 ###Annie-Line
 
 * Nav secondaire avec son contenu. Grande div noire sur le côté.
@@ -16,7 +18,7 @@
 * Images et leurs légendes.
 * Mise en place de l'image striée avec un système d'invisible et de hidden, l'image uniquement là en MD.
 * Section blanche contenant des informations sans la video.
-* Création du Markdown
+* Création du Markdown.
 
 ---
 
