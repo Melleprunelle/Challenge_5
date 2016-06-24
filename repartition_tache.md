@@ -19,8 +19,8 @@
 * Mise en place de l'image striée avec un système d'invisible et de hidden, l'image uniquement là en MD.
 * Section blanche contenant des informations sans la video.
 * Création du Markdown.
-*Mise en place du footer.
+* Mise en place du footer.
 
 ---
 
-> **Bon courage pour la correction =D**
+> Bon courage pour la correction =D
