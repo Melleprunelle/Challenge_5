@@ -20,6 +20,7 @@
 * Section blanche contenant des informations sans la video.
 * Création du Markdown.
 *Mise en place du footer.
+
 ---
 
 > **Bon courage pour la correction =D**
