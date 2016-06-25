@@ -117,7 +117,7 @@ i {color: white !important;}
 
 
 /* ================================================== */
-/* ============= NAV SECONDAIRE / ANNIELINE ========= */
+/* ============= NAV SECONDAIRE / ANNIE-LINE ========= */
 /* ================================================== */
 
 /*Css navbar vertical*/
@@ -346,28 +346,43 @@ p.site a:hover{
 /* ================================================== */
 
 section.audiotheme{
-	max-width: 480px;
+	/*max-width: 480px;
 	margin-right: auto;
-	margin-left: auto;
+	margin-left: auto;*/
+}
+.audiotheme{
+	/*padding-top: 60px;*/
 }
 h1.demo {
 	text-transform: uppercase;
+	font-size: 33px;
+	margin-top: 0px;
 }
-iframe{
-	margin-bottom: 24px;
+.video-audiotheme{
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%; /*Video = 16/9 d'où 9/16 qui est ègale à 0.5625.*/
+	overflow: hidden;
+	position: relative;
 }
+.video-audiotheme iframe .video-audiotheme embed .video-audiotheme object{
+	width: 100% !important;
+	height: 100% !important;
+	position: absolute;
+	top:0; 
+	left: 0;
+}	
+
 .audiotheme p {
 	font-family: "Lato" sans-serif;
 	font-size: 17px;
 	font-weight: 300px;
 }
 p.paragraphe1{
-	margin-bottom:30px;
+	margin-bottom:15px;
 
 }
-p.paragraphe2{
 
-}
 
 /* ================================================== */
 /* ====================== SECTION BLANCHE 2 ========= */
