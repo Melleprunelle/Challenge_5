@@ -123,6 +123,7 @@ i {color: white !important;}
 /*Css navbar vertical*/
 
 .navgauche {
+	font-family: "Lato", sans-serif;
 	padding-left: 15px;
 	padding-left: 15px;
 }
@@ -133,7 +134,7 @@ nav#sidebar-wrapper{ /*Css positionnement + background*/
 	
 }
 
-nav#sidebar-wrapper li a{ /*Liens de la navbar*/
+nav#sidebar-wrapper li.border-nav a{ /*Liens de la navbar*/
 	font-size: 11px;
 	border-bottom: solid 1px grey;
 
@@ -150,7 +151,6 @@ li a.nav-liens{
 	font-size:0.8em;
 	padding-left: 30px;
 	padding-right: 30px;
-	/*text-align: center;*/
 	color: grey;
 }
 
@@ -203,6 +203,7 @@ img.img-responsive.col-md-12.offset-1.col-md-10{
 	padding-right: 30px;
 }
 p.release{
+	font-family: "Lato", sans-serif;
 	margin-top: 10px;
 	margin-left: 0px;
 	padding-left: 30px;
@@ -215,7 +216,7 @@ p.release{
 }
 
 p.listen {
-
+	font-family: "Lato", sans-serif;
 	color: white;
 	text-decoration: none;
 	margin-bottom: 70px;
@@ -233,6 +234,7 @@ p.listen a:hover{
 }
 /*Titre list*/
 p.remerciements{
+	font-family: "Lato", sans-serif;
 	color: white;
 	font-size: 11px;
 	font-weight: 800;
@@ -243,12 +245,17 @@ p.remerciements{
 }
 /*List*/
 ul.noms-artistes{ 
+	font-family: "Lato", sans-serif; 
 	list-style: none;
 	margin-bottom: 80px;
-	font-size: 18px;
+	font-size: 12px;
 	margin-left: 0px;
 	padding-left: 30px;
 	padding-right: 30px;
+}
+li.artistes{
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 li.artistes a{
 	color:white;
@@ -259,7 +266,13 @@ li.artistes a:hover{
 	color: #24890D;
 	text-decoration: none;
 }
+hr.barre-grise{
+	border-color: gray;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 p.site{
+	font-family: "Lato", sans-serif !important;
 	color: grey;
 	font-size: 11px;
 	padding-left: 30px; 
@@ -307,6 +320,8 @@ p.site a:hover{
 
 .tentative-hover-image:hover {
 	opacity: 0.4;
+	background-size: 6px 6px !important
+  +background-image(linear-gradient(-45deg, transparent 46%, gray 49%, gray 51%, transparent 55%))
 }
 
 .tentative-hover-image {
@@ -342,12 +357,12 @@ p.site a:hover{
 }
 
 /* ================================================== */
-/* ============= SECTION BLANCHE 1 / LISE =========== */
+/* ============= SECTION BLANCHE 1 / Annie-Line =========== */
 /* ================================================== */
 
 section.audiotheme{
-	/*max-width: 480px;
-	margin-right: auto;
+	max-width: 500px;
+	/*margin-right: auto;
 	margin-left: auto;*/
 }
 .audiotheme{
@@ -355,7 +370,7 @@ section.audiotheme{
 }
 h1.demo {
 	text-transform: uppercase;
-	font-size: 33px;
+	font-size: 30px;
 	margin-top: 0px;
 }
 .video-audiotheme{
@@ -365,7 +380,7 @@ h1.demo {
 	overflow: hidden;
 	position: relative;
 }
-.video-audiotheme iframe .video-audiotheme embed .video-audiotheme object{
+.video-audiotheme iframe{
 	width: 100% !important;
 	height: 100% !important;
 	position: absolute;
@@ -385,7 +400,7 @@ p.paragraphe1{
 
 
 /* ================================================== */
-/* ====================== SECTION BLANCHE 2 ========= */
+/* ====================== SECTION BLANCHE 2 - LISE ========= */
 /* ================================================== */
 
 .section-blanche{
@@ -486,13 +501,16 @@ footer{
 }
 
 .text-footer {
-	margin: 10px;
-	font-family: "Lato" sans-serif;
 	font-size: 12px;
+	margin-left: 0px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding-left: 30px;
 }
 
 .text-footer a{
 	color: grey;
+	font-family: "Lato" sans-serif !important;
 }
 
 .text-footer a:hover{
