@@ -313,21 +313,19 @@ p.site a:hover{
 
 /* CSS DIV NOIR IMG*/
 
-.img-invisible {
-	width: 100%;
-	height: 385px;
+.pattern-invisible {
+	background-image: url(../img/pattern.png);
+	background-color: black;
 }
 
-.tentative-hover-image:hover {
-	opacity: 0.4;
+/*.tentative-hover-image:hover {
+	opacity: 0.7;
 }
 
 .tentative-hover-image {
 	background-color: black;
-	/*background-image: url(img/hover.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;*/
-}
+	background-image: url(../img/pattern.png):;
+}*/
 
 .class-div-noire {
 	background-color: black;
@@ -355,7 +353,7 @@ p.site a:hover{
 }
 
 /* ================================================== */
-/* ============= SECTION BLANCHE 1 / Annie-Line =========== */
+/* ============= SECTION BLANCHE 1 / Annie-Line ===== */
 /* ================================================== */
 
 section.audiotheme{
@@ -398,17 +396,16 @@ p.paragraphe1{
 
 
 /* ================================================== */
-/* ====================== SECTION BLANCHE 2 - LISE ========= */
+/* =============== SECTION BLANCHE 2 - LISE ========= */
 /* ================================================== */
 
 .section-blanche{
 	background-color: white;
 }
 
-.padding {
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
+/*.padding {
+	/*padding-top: 60px;
+}*/
 
 .div-blanche2 h4 {
 	font-family: "Lato";
@@ -465,6 +462,7 @@ p.paragraphe1{
 .separator-black {
 	height: 5px;
 	background-color: black;
+	margin-top: 60px;
 }
 
 .div-arrow {
@@ -484,6 +482,7 @@ p.paragraphe1{
 	font-style: italic;
 	color: #767676;
 	margin-top: 10px;
+	padding-bottom: 60px;
 }
 
 .text-sous-image a {
@@ -491,7 +490,7 @@ p.paragraphe1{
 }
 
 /* ================================================== */
-/* ====================== FOOTER ===================== */
+/* ===================== FOOTER ===================== */
 /* ================================================== */
 
 footer{
