@@ -36,11 +36,11 @@ i {color: white !important;}
 
 /*CSS TITRE NAVBAR*/
 
-	.navbar-brand {
-		color: white !important;
-		font-family: "Lato", sans-serif;
-		font-weight: 400;
-		font-size: 1.2em !important;
+	.navbar-titre {
+		color: white;
+		font-family: "Lato" sans-serif;
+		font-size: 1em !important;
+		font-weight: 900 !important;
 	}
 
 	.nav-style {background-color: black;
@@ -115,6 +115,20 @@ i {color: white !important;}
 		border-radius: 2px;
 	}
 
+/*CSS DE LA NAV FORMAT SMART*/
+
+	.navbar-toggle {
+		border:none;
+	}
+
+	.icon-bar {
+		width: 20px !important;
+	}
+
+	.navbar-inverse .navbar-toggle:hover,
+	.navbar-inverse .navbar-toggle:focus {
+		background-color: black;
+	}
 
 /* ================================================== */
 /* ============= NAV SECONDAIRE / ANNIE-LINE ========= */
@@ -291,22 +305,6 @@ p.site a:hover{
 	text-decoration: none;
 }
 
-/*CSS DE LA NAV FORMAT SMART*/
-
-	/*.navbar-toggle {
-		border:none;
-	}
-
-	.icon-bar {
-		border-radius: 0px !important; 
-		width: 15px !important;
-	}
-
-	.navbar-inverse .navbar-toggle:hover,
-	.navbar-inverse .navbar-toggle:focus {
-		background-color: black;
-	}*/
-
 
 /* ================================================== */
 /* ================ SECTION IMG / LISE ============== */
@@ -319,18 +317,18 @@ p.site a:hover{
 	background-color: black;
 }
 
-.hover-effet {
+/*.hover-effet {
 	background-color: black;
 	background-image: url(../img/pattern1.png);
 }
 
 .img-hover:hover {
 	opacity: 0.8;
-}
+}*/
 
-.tentative-hover-image:hover {
+/*.tentative-hover-image:hover {
 	opacity: 0.7;
-}
+}*/
 
 .tentative-hover-image {
 	background-color: white;
@@ -341,7 +339,8 @@ p.site a:hover{
 
 .class-div-noire {
 	background-color: black;
-	height: 90px;
+	height: 110px;
+	padding-bottom: 20px;
 }
 
 .class-div-noire h5 {
@@ -351,18 +350,30 @@ p.site a:hover{
 	padding-right: 20px;
 	font-family: "Lato" sans-serif;
 	font-size: 0.8em;
+	font-weight: 700;
 	margin-top: 0px;
+}
+
+.class-div-noire h5:hover {
+	color:#24890D;
+	text-decoration: none;
 }
 
 .class-div-noire p{
 	font-family: "Lato" sans-serif;
-	font-size: 0.85em;
+	font-size: 1em;
 	color: white;
-	padding-bottom: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 	text-transform: uppercase;
 }
+
+.class-div-noire p:hover {
+	color:#24890D;
+	text-decoration: none;
+}
+
+.class-div-noire a {text-decoration: none;}
 
 /* ================================================== */
 /* ============= SECTION BLANCHE 1 / Annie-Line ===== */
@@ -488,11 +499,6 @@ p.paragraphe1{
 .div-arrow i {
 	padding-top: 3px;
 	padding-bottom: 8px;
-}
-
-.img-div-blanche {
-	width: 100px;
-	height: 100px;
 }
 
 .text-sous-image {
